@@ -12,13 +12,13 @@ This project uses Term 2 simulator and uWebSocketIO, to run this project, follow
 ## Accuracy
 
 * For dataset 1, the RMSE meet the requirement.
-<img src="https://github.com/jane212/CarND-Term2-UKF/tree/master/output_images/Dataset1_RMSE.png" width="500">
+<img src="https://github.com/jane212/CarND-Term2-UKF/blob/master/output_images/Dataset1_RMSE.png" width="500">
 
 * The lidar NIS in dataset 1 is shown below.
-<img src="https://github.com/jane212/CarND-Term2-UKF/tree/master/output_images/Lidar_NIS.png" width="500">
+<img src="https://github.com/jane212/CarND-Term2-UKF/blob/master/output_images/Lidar_NIS.png" width="500">
 
 * The radar NIS in dataset 1 is shown below.
-<img src="https://github.com/jane212/CarND-Term2-UKF/tree/master/output_images/Radar_NIS.png" width="500">
+<img src="https://github.com/jane212/CarND-Term2-UKF/blob/master/output_images/Radar_NIS.png" width="500">
 
 
 ## Algorithm
@@ -34,6 +34,6 @@ Some key modifications are listed below:
   * Different sigma points generation;
   * normalize any angle results to make sure it is within -pi to pi;
 * Calculate RMSE;
-* Calculate NIS and write to NIS_output.txt;
+* Calculate NIS and write them to NIS_output.txt;
 * Plot NIS to check the consistency.
 
